@@ -1,0 +1,53 @@
+*{
+  background-color:rgba(130, 98, 98, 0.023);
+}
+.home{
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;
+  color: #fa4e0a;
+}
+.form input{
+  width: 300px;
+  padding: 10px;
+  border-color: green ;
+  font-size: 25px;
+}
+.form button{
+  padding: auto;
+  font-size: 25px;
+  margin: 1rem;
+  color: rgb(19, 109, 7);
+}
+.task{
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color:rgba(119, 152, 134, 0.844);
+  color: rgb(0, 0, 0);
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 2px;
+  font-size: 30px;
+}
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+.checkbox .icon{
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.task div span{
+  margin: 0px 5px 0px 4px;
+}
+
+.task div .icon{
+  cursor: pointer;
+}
+.line_though{
+  text-decoration: line-through;
+}
