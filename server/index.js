@@ -6,7 +6,7 @@ const app=express()
 app.use(cors())
 app.use(express.json())
 app.get("/",(req,res)=>{
-    res.send("hi ma")
+    res.send("SERVER RUNNING ON THIS PORT ")
 }) 
 
 mongoose.connect('mongodb://127.0.0.1:27017/t')

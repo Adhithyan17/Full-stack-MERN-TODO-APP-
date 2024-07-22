@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import Create from './Create'
-import  './App.css'
-import axios from 'axios'
-import { BsFillCheckCircleFill, BsFillTrashFill } from 'react-icons/bs';
-import { BsCircleFill } from 'react-icons/bs';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
+import { BsCircleFill, BsFillCheckCircleFill, BsFillTrashFill } from 'react-icons/bs';
+import './App.css';
+import Create from './Create';
 
 const Home = () => {
     const [todo,setTodo]=useState([])
@@ -19,7 +18,7 @@ const Home = () => {
         location.reload()
         )
       .catch(err=>console.log(err))
-      console.log("jhd")
+      console.log("For testing Handle edit")
 
     }
     const handleDelete=(id)=>{
@@ -28,7 +27,7 @@ const Home = () => {
         location.reload()
         )
       .catch(err=>console.log(err))
-      console.log("j dinesh")
+      console.log("FOR testing")
 
     }
 
